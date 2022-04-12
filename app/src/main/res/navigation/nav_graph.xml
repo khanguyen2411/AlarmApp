@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/alarmFragment">
+    <fragment
+        android:id="@+id/alarmFragment"
+        android:name="com.example.alarmapp.fragments.AlarmFragment"
+        android:label="@string/menu_alarm_title"
+        tools:layout="@layout/fragment_alarm" />
+    <fragment
+        android:id="@+id/clockFragment"
+        android:name="com.example.alarmapp.fragments.ClockFragment"
+        android:label="@string/menu_clock_title"
+        tools:layout="@layout/fragment_clock" />
+    <fragment
+        android:id="@+id/stopwatchFragment"
+        android:name="com.example.alarmapp.fragments.StopwatchFragment"
+        android:label="@string/menu_stopwatch_title"
+        tools:layout="@layout/fragment_stopwatch" />
+    <fragment
+        android:id="@+id/countdownFragment"
+        android:name="com.example.alarmapp.fragments.CountdownFragment"
+        android:label="@string/menu_countdown_title"
+        tools:layout="@layout/fragment_countdown" />
+</navigation>

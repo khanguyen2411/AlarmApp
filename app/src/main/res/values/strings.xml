@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Alarm App</string>
+
+    <string name="menu_alarm_title">Báo thức</string>
+    <string name="menu_clock_title">Đồng hồ</string>
+    <string name="menu_stopwatch_title">Bấm giờ</string>
+    <string name="menu_countdown_title">Đếm ngược</string>
+
+    <string name="clock_current">Hiện tại:</string>
+    <string name="clock_international_time">Giờ quốc tế</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_info">Thông tin</string>
+    <string name="menu_exit">Thoát ứng dụng</string>
+    <string name="count_down_pick_time">Đặt giờ</string>
+    <string name="count_down_text_view">00:00:00</string>
+    <string name="alarm_delete">Xóa</string>
+    <string name="alarm_time">00:00</string>
+    <string name="alarm_vertical_line">|</string>
+    <string name="alarm_message">Dậy đi bạn hiền ơi</string>
+    <string name="alarm_add_alarm">Thêm báo thức</string>
+    <string name="alarm_set_alarm">Đặt báo thức</string>
+    <string name="alarm_turn_off_alarm">Tắt báo thức</string>
+    <string name="alarm_label">Lời nhắc</string>
+    <string name="alarm_note"><![CDATA[Chưa có báo thức nào cả, nhấn nút ở dưới để thêm nhé]]></string>
+    <string name="alarm_turn_off">Tắt báo thức</string>
+</resources>
